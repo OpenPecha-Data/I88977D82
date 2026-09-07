@@ -12,7 +12,7 @@ source_metadata:
   sku: RDI-SS-37
   cover: RDI-SS-37.jpg
   volume: {}
-  title_source: epub:dc:title
+  title_source: epub:dc:title:ambiguous-layer
 ebook_metadata:
   title: དཀོན་མཆོག་སྤྱི་འདུས་འགྲེལ་བ་གཅེས་བཏུས།
   authors: *id001
@@ -20,6 +20,7 @@ ebook_metadata:
   cover: RDI-SS-37.jpg
 layers:
 - Author
+- BookTitle
 - Chapter
 - Citation
 - Commentary
